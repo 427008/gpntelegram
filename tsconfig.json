@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+//    "paths": { "telegraf": ["../../"] },
+    "module": "commonjs",
+    "sourceMap": true,
+    "composite": true,
+//    "allowJs": true,
+//    "checkJs": true,
+//    "noEmit": true,
+    "strict": true,
+  },
+//  "references": [{ "path": "../../" }],
+  "exclude": [
+    "node_modules"
+  ]
+}
